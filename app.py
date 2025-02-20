@@ -4,6 +4,7 @@ from swarm import Agent, Swarm
 # Load environment variables
 load_dotenv()
 
+
 # Initialize the Swarm client
 client = Swarm()
 

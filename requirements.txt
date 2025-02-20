@@ -1,2 +1,3 @@
 git+https://github.com/openai/swarm.git
 python-dotenv
+tavily-python
