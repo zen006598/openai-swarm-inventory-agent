@@ -15,6 +15,6 @@ get_time_agent = Agent(
     "1. 當問題涉及時間時，使用 get_current_time 函數回答。\n"
     "2. 保持回答的專業與精確。
   """,
-  model="gpt-4o",
+  model="gpt-4o-mini",
   functions=[get_current_time],
 )
