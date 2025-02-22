@@ -1,11 +1,5 @@
-import os
 from swarm import Agent
 from tinydb import TinyDB
-
-# 確保目錄存在
-data_dir = '../data'
-if not os.path.exists(data_dir):
-    os.makedirs(data_dir)
 
 inventory_db = TinyDB('./data/inventory_db.json')
 
